@@ -5,9 +5,12 @@ nav {
   height: 50px;
   align-items: center;
   justify-content: space-around;
+  gap: 20py;
+  height: 50px;
 }
 nav a {
   font-size: 20px;
+  color: darkkhaki;
 }
 
 @media screen and (max-width: 600px) {
@@ -16,4 +19,23 @@ nav a {
     height: auto;
     background-color: red;
   }
+}
+
+center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+}
+
+#galeryvalami {
+  margin: 15px;
+}
+
+#galeryvalami img {
+  border: 2px rgb(30, 128, 0) solid;
+  box-shadow: 5px 5px 5px violet;
 }
